@@ -1,0 +1,38 @@
+.lunch{
+height: 200px;
+width: 1000px;
+display: flex;
+padding: 10px;
+box-shadow: 2px 2px 9px 2px darkgrey;
+cursor: pointer;
+margin-top: 50px;
+margin-left: 50px;
+}
+.lunch img{
+    height: 200px;
+    width: 200px;
+}
+.content .info{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin-left: 20px;
+    color: cadetblue;
+    
+
+}
+.content p {
+    font-size: 20px; 
+    line-height: 30px;
+    -webkit-line-clamp: 3;
+    -webkit-line-orient: vertical;
+    overflow: hidden;
+    margin-top: 20px;
+    color:gray ;
+    -webkit-line-clamp: 3;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
